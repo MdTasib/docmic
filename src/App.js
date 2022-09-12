@@ -1,8 +1,12 @@
+import { Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+
 function App() {
 	return (
-		<div className='App'>
-			<h2>Hello</h2>
-		</div>
+		<>
+			<Navbar />
+			<Routes></Routes>
+		</>
 	);
 }
 
