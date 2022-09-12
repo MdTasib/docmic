@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Button from "../shared/Button";
 import Container from "../shared/Container";
 
 const Navbar = () => {
@@ -11,8 +12,23 @@ const Navbar = () => {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink className='mx-1 py-1' to='/services'>
-					Services
+				<NavLink className='mx-1 py-1' to='/about'>
+					About
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='mx-1 py-1' to='/departments'>
+					Departments
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='mx-1 py-1' to='/pages'>
+					Pages
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='mx-1 py-1' to='/blog'>
+					Blog
 				</NavLink>
 			</li>
 			<li>
@@ -20,16 +36,11 @@ const Navbar = () => {
 					Contact
 				</NavLink>
 			</li>
-			<li>
-				<NavLink className='mx-1 py-1' to='/dashboard'>
-					Dashboard
-				</NavLink>
-			</li>
 		</>
 	);
 
 	return (
-		<div className='navbar bg-[#F7F7F7] px-10'>
+		<div className='navbar bg-[#F7F7F7]'>
 			<Container>
 				<div className='navbar-start py-4'>
 					<div className='dropdown'>
@@ -50,7 +61,7 @@ const Navbar = () => {
 						</label>
 						<ul
 							tabIndex='0'
-							className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'>
+							className='menu menu-compact dropdown-content mt-3 shadow bg-base-100 rounded-box w-52'>
 							{menuItems}
 						</ul>
 					</div>
@@ -63,7 +74,7 @@ const Navbar = () => {
 					<ul className='menu menu-horizontal p-0 text-base'>{menuItems}</ul>
 				</div>
 				<div className='navbar-end hidden lg:flex'>
-					<button className='btn btn-primary'>Free Consulation</button>
+					<Button>Free Consulation</Button>
 				</div>
 			</Container>
 		</div>
