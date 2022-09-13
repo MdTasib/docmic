@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../../shared/Container";
-import imgEx from "../../assets/images/pose_7.png";
-import features from "../../data/features";
+import Container from "../../../shared/Container";
+import imgEx from "../../../assets/images/pose_7.png";
+import features from "../../../data/features";
 
 const Feature = () => {
 	return (

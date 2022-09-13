@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../shared/Container";
-import imgEx from "../../assets/images/pose_4.png";
+import Container from "../../../shared/Container";
+import imgEx from "../../../assets/images/pose_4.png";
 
 const Experiences = () => {
 	return (

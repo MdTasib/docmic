@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../../shared/Container";
-import headerImg from "../../assets/images/pose_2.png";
-import Button from "../../shared/Button";
+import Container from "../../../shared/Container";
+import headerImg from "../../../assets/images/pose_2.png";
+import Button from "../../../shared/Button";
 
 const Header = () => {
 	const infos = [

@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../shared/Container";
-import services from "../../data/services";
+import Container from "../../../shared/Container";
+import services from "../../../data/services";
 
 const Services = () => {
 	return (

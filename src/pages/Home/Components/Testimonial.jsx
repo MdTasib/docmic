@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import imgEx from "../../assets/images/testimonialimg.png";
-import testimonials from "../../data/testimonials";
-import "../../assets/styles/testimonial.css";
+import imgEx from "../../../assets/images/testimonialimg.png";
+import testimonials from "../../../data/testimonials";
+import "../../../assets/styles/testimonial.css";
 
 const Testimonial = () => {
 	const settings = {

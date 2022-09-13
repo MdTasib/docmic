@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
-import Container from "../../shared/Container";
-import imgEx from "../../assets/images/pose_8.png";
+import Container from "../../../shared/Container";
+import imgEx from "../../../assets/images/pose_8.png";
 import {
 	Accordion,
 	AccordionBody,
