@@ -25,7 +25,7 @@ const Header = () => {
 	return (
 		<header className='bg-[#F7F7F7] px-10 py-20 hero h-full'>
 			<Container>
-				<div className='hero-content flex-col lg:flex-row gap-20'>
+				<div className='flex items-center flex-col lg:flex-row gap-20'>
 					<div className='text-center lg:text-left'>
 						<h1 className='text-6xl font-medium leading-tight text-textb'>
 							Your <span className='text-primary'>Health</span> Is Our <br />
