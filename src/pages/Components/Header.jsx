@@ -28,8 +28,8 @@ const Header = () => {
 				<div className='flex items-center flex-col lg:flex-row gap-20'>
 					<div className='text-center lg:text-left'>
 						<h1 className='text-6xl font-medium leading-tight text-textb'>
-							Your <span className='text-primary'>Health</span> Is Our <br />
-							Top <span className='text-secondary'>Priority</span>
+							Your <span className='text-primary'>Health</span> Is Our Top
+							<span className='text-secondary'> Priority</span>
 						</h1>
 						<p className='py-6 text-paragraph1'>
 							There are many variations of passages of lpsum available, but the
