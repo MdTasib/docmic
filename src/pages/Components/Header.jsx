@@ -27,11 +27,11 @@ const Header = () => {
 			<Container>
 				<div className='hero-content flex-col lg:flex-row gap-20'>
 					<div className='text-center lg:text-left'>
-						<h1 className='text-6xl font-medium leading-tight'>
+						<h1 className='text-6xl font-medium leading-tight text-textb'>
 							Your <span className='text-primary'>Health</span> Is Our <br />
 							Top <span className='text-secondary'>Priority</span>
 						</h1>
-						<p className='py-6'>
+						<p className='py-6 text-paragraph1'>
 							There are many variations of passages of lpsum available, but the
 							majority hae suffered.
 						</p>
@@ -39,7 +39,7 @@ const Header = () => {
 						<div className='grid grid-cols-3 py-10'>
 							{infos.map(info => (
 								<div key={info.id}>
-									<h2 className='text-primary font-bold text-3xl'>
+									<h2 className='text-secondary font-bold text-3xl'>
 										{info.count}
 									</h2>
 									<small>{info.title}</small>

@@ -11,8 +11,8 @@ module.exports = {
 				mytheme: {
 					primary: "#2D89FF",
 					secondary: "#642DFF",
-					paragraph: "#575757",
-					text: "#1E1E1E",
+					paragraph1: "#575757",
+					textb: "#1e1e1e",
 					"base-100": "#FFFFFF",
 					info: "#CAE2E8",
 					success: "#DFF2A1",
